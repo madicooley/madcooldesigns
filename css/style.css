@@ -1,0 +1,288 @@
+html {
+  height: 100%;
+  margin: 0;
+  }
+
+body {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  height: 100%;
+  border: 0;
+}
+
+.wrapper {
+  min-height: 100%;
+  margin-bottom: 300px;
+}
+
+header {
+  background-image: url('../images/header2.jpg');
+  height: 100vh;
+  background-size: cover;
+  margin-bottom: 50px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bar {
+  height: 55px;
+  display: inline-block;
+   top: 0px;
+   left: 0px;
+   right: 0px;
+   position: fixed; left: 0;
+  -webkit-box-shadow: 0 7px 8px rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0 7px 8px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 7px 8px rgba(0, 0, 0, 0.12);
+}
+
+.symbol {
+  margin-top: 7px;
+  width: 50px;
+  float:left;
+  margin-left: 25px;
+}
+
+nav {
+  float: right;
+  margin-top: 15px;
+}
+
+.navLink {
+  display: inline-block;
+  color: #424040;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  margin-right: 30px;
+  margin-top: 7px;
+}
+
+.navLink:hover {
+  color: black;
+}
+
+.logo {
+  width: 20%;
+  margin-bottom: 0;
+}
+
+.moto {
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 100%;
+  line-height: 1.6875;
+  font-weight: 900;
+  color: #424040;
+  margin-top: 20px;
+  margin-bottom: 15%;
+
+}
+
+.aboutContent {
+  margin-bottom: 100px;
+}
+
+.about {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #424040;
+  max-width: 600px;
+  margin: 0 auto 20px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.hello {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #424040;
+}
+
+p {
+  margin: 0 auto 20px;
+  max-width: 600px;
+  font-family: 'Roboto', sans-serif;
+  color: #424040;
+}
+
+.aboutContent {
+  max-width: 600px;
+  margin: 0 auto 20px;
+  padding-bottom: 200px;
+}
+
+.placeholderP {
+  height 300px;
+  margin-bottom: 150px;
+}
+
+.largeWindow {
+  height: 600px;
+  background-image: url('../images/mount.jpg');
+  background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  border-radius: 70%;
+  width: 600px;
+  display: block;
+    margin: auto;
+  overflow: hidden;
+  margin-bottom: 150px;
+}
+
+.me {
+  height: 90%;
+  background-attachment: fixed;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+.back-bird {
+  width: 30%;
+  background-attachment: fixed;
+  position: relative;
+  left: 15%;
+  top: -100%;
+}
+
+.Works {
+  padding-bottom: 10%;
+}
+
+.sectionWorks {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #424040;
+  align-items: center;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.sort {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #424040;
+  padding-bottom: 25px;
+}
+
+.sortLink {
+  display: inline-block;
+  color: #424040;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.sortLink:hover {
+  color: black;
+}
+
+.imgrow1 {
+  height: 25%;
+  width: 25%;
+  padding: 2%;
+  z-index:1;
+  transform: scale(1);
+  transition: all 0.3s ease-in-out;
+}
+
+.imgrow1:hover {
+  transform: scale(1.15);
+  transition: all 0.3s ease-in-out;
+}
+
+.row1 {
+  padding-left: 12%;
+  overflow: hidden;
+}
+
+.parallax {
+    /* The image used */
+      background-image: url('../images/road.JPG');
+
+      /* Set a specific height */
+      min-height: 500px;
+
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+}
+
+.contactSection {
+}
+
+.contact {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #424040;
+  align-items: center;
+  position: relative;
+  padding-top: 50px;
+  text-transform: uppercase;
+}
+
+.info {
+  margin: 0 auto 20px;
+  max-width: 600px;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  font-weight:400;
+  color: #424040;
+  padding-top: 25px;
+  border-bottom: 2px solid #424040;
+}
+
+.icons {
+  height: 5px;
+  margin: 0 auto 20px;
+  max-width: 600px;
+}
+
+footer {
+  display: block;
+  bottom: 0;
+}
+
+.foot {
+  float: left;
+  align-items: baseline;
+}
+
+.symbolFoot {
+  width: 50px;
+  float:left;
+  margin-left: 25px;
+  margin-bottom: -45px;
+  margin-top: 15px;
+}
+
+.footNav {
+  float: left;
+  margin-left: 90px;
+  margin-bottom: -35px;
+}
+
+.copyright {
+  text-transform: uppercase;
+  color: grey;
+  font-size: 12px;
+}
